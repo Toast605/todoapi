@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          <q-btn to="/" label="정상훈" class="text-subtitle1" unelevated></q-btn>
+          <q-btn to="/" label="2370017" class="text-subtitle1" unelevated></q-btn>
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -61,6 +61,18 @@ const linksList = [
     caption: 'github.com/quasarframework',
     icon: 'code',
     link: 'https://github.com/quasarframework'
+  },
+  {
+    title: 'todo',
+    caption: 'vue + store 실습',
+    icon: 'home',
+    link: '/todo'
+  },
+  {
+    title: "db todo list",
+    caption: "vue + database",
+    icon: "chat",
+    link: "/dbtodo",
   },
   /*{
     title: 'Discord Chat Channel',
